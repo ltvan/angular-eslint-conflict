@@ -1,8 +1,8 @@
 {
   "root": true,
   "ignorePatterns": ["projects/**/*"],
-  "extends": ["standard"],
-  "plugins": ["promise"],
+  "extends": ["standard", "prettier"],
+  "plugins": ["promise", "prettier"],
   "overrides": [
     {
       "files": ["*.ts"],
